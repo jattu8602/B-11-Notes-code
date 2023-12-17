@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    cout<<"for calculating simple intrest"<<endl;
     float SI, P, R, T;
     cout << "enter profit rate and time wrt P ,R and T" << endl;
 
