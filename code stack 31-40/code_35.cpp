@@ -1,42 +1,42 @@
 //BREAK: it is a keyword ,used to terminate the loop.break is used with for ,while,do while, &switch case.
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int main(){
-    int i;
-    for(i = 1; i<=5;i++){
-        cout<<i<<endl;
-        if(i==3){
-            break;
-        }
-    }
+// int main(){
+//     int i;
+//     for(i = 1; i<=5;i++){
+//         cout<<i<<endl;
+//         if(i==3){
+//             break;
+//         }
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
 
 
 //CONTINUE: it is a keyword used in continuing the next iteration of the loop
 // it is used with for,while,do while loops
 
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int main(){
-    int i;
-    for ( i = 1; i < 6; i++)
-    {
-        /* code */
-        if(i==2){
-            continue;
-        }
-        cout<<i<<endl;
+// int main(){
+//     int i;
+//     for ( i = 1; i < 6; i++)
+//     {
+//         /* code */
+//         if(i==2){
+//             continue;
+//         }
+//         cout<<i<<endl;
 
-    }
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
 
 
 //GO TO : it is used to after the normal sequence of the program execution by transferrring the control to some other part of program.
