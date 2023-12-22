@@ -7,6 +7,12 @@
 
 there are two methods----->
 1.> x=y
-2.> x(y)                      
+2.> x(y)  
+
+
+
+
+
+
 */
 
