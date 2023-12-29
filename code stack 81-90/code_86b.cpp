@@ -1,6 +1,3 @@
-/*
-wap to implement function overloading to calculate area of rectangle, circle, square etc.
-*/
 #include<iostream>
 using namespace std;
 class shape{
