@@ -5,6 +5,11 @@ creation and editing powerpoint slides using ms powerpoint
 
 
 
+
+
+
+
+
 Here are some tips for creating and editing PowerPoint slides: 
 Create a presentation
 To create a presentation from scratch, select Blank Presentation. To use a prepared design, select a template.

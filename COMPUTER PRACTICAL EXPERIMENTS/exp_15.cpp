@@ -1,0 +1,1 @@
+//wap to illustrate a class (student ) and print name and roll number of student using object.

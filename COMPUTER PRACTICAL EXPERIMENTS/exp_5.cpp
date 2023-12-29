@@ -2,6 +2,14 @@
 creation and operating of spreadsheet using ms excel
 
 
+
+
+
+
+
+
+
+
 Here are some steps to create a spreadsheet in Excel: 
 Open Excel
 Select Menu

@@ -3,13 +3,13 @@
 using namespace std;
 
 int main(){
-    int i,max,A[10];
+    int i,max=0,A[10];
     cout<<"enter 10 values in sequence:"<<endl;
     for (i = 1; i <= 10; i++)
     {
         /* code */
         cin>>A[i];
-        max=0;
+        
 
     }
     for (i = 1; i <= 10; i++)

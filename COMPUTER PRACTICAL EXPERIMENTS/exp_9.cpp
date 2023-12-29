@@ -1,6 +1,7 @@
-// wap to illustrate arrays:
-// (implement the addition of array elements)
-//code -37
+/*
+wap to illustrate an one dimentional array of searching an element present in an array or not
+(linear search)
+*/
 #include<iostream>
 using namespace std;
 

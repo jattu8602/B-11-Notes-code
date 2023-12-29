@@ -2,6 +2,10 @@
 study and practice of ms windows folder related operations , my computer,
 windows explorer , control panel.
 
+
+
+
+
 INTRODUCTION ABOUT WINDOWS:
 
 

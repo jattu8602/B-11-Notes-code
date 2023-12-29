@@ -1,9 +1,1 @@
-//write a programme to illustrate operator overloading
-#include<iostream>
-using namespace std;
-
-int main(){
-    
-    
-    return 0;
-}
+//wap to find max in one dimentional array

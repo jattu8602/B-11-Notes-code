@@ -2,6 +2,14 @@
 creation and manupulation of database table using sql in ms access.
 
 
+
+
+
+
+
+
+
+
 To create a new table in Microsoft Access using SQL, you can use the CREATE TABLE statement. The statement defines the structure or schema of a table. 
 Here are the steps to create a new table using SQL in Access: 
 Name the table

@@ -1,6 +1,11 @@
 /*
 creation and editing of text files using ms word
 
+
+
+
+
+
 To edit a text file in Microsoft Word, you can: 
 Open Microsoft Word
 Click the File menu and select Open
