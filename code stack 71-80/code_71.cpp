@@ -8,17 +8,18 @@ class demo{
     public:
     void get(){
         for(i = 0;i<=4;i++){
-            cin>>a[i];}
-    void dis(){
+            cin>>a[i];
+            }}
+    void display(){
         for( i = 0; i<=4; i++)
-        {cout<<a[i];
-        }}
+        {cout<<a[i];}
+        }
 };
 
 int main(){
     demo obj;
     obj.get();
-    obj.dis();
+    obj.display();
     
     return 0;
 }
