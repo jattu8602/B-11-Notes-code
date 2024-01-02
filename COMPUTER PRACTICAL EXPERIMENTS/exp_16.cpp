@@ -9,7 +9,7 @@ class rectangle{
     rectangle()//costructor
     {cout<<"enter length of rectangle : "<<endl;
     cin>>l;
-    cout<<"enter breadth of rectangel : "<<endl;
+    cout<<"enter breadth of rectangle : "<<endl;
     cin>>b;
     cout<<"enter radius of circle : "<<endl;
     cin>>c;
