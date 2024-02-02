@@ -3,21 +3,21 @@
 using namespace std;
    template<class T>
    class linked_list{
-    private:
+    
 
     struct node{
         T info;
         node *next;
 
     };
-    node *str,*ptr,*newptr;
+    node *start,*ptr,*newptr;
     T item;
 
     public:
     linked_list(){
         start = NULL;
     }
-    createlist(){
+    void createlist(){
         char ch;
         ptr = getnode();
         cout<<"enter the value to insert"<<endl;
@@ -27,7 +27,7 @@ using namespace std;
         start = ptr;
         cout<<"want to insert more nodes:"<<endl;
         cin>>ch;
-        while(ch = 'Y' || ch = 'y'){
+        while((ch = 'Y') || (ch = 'y')){
             newptr = getnode();
             cout<<"enter value to insert"<<endl;
             cin>>item;
@@ -46,11 +46,11 @@ using namespace std;
 
     }
     void display(){
-        node *ptr = start;
+        node *ptrl = start;
         cout<<"the linked list is: start"<<endl;
-        while (ptr1! = NULL){
-            cout<<"-->"<<ptr1->info;
-            ptr1 = ptr1->next;
+        while((ptrl)! = NULL){
+            cout<<"-->"<<ptrl->info;
+            ptrl = ptrl->next;
         }
         cout<<endl;
     }
@@ -62,6 +62,9 @@ int main(){
     char ch;
     int choice;
     cout<<"****** create and display the list of integers    *****"<<endl;
-    
+    obj.createlist();
+    obj.display();
+
+
     return 0;
 }
