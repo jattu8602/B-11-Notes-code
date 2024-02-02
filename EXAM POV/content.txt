@@ -1,0 +1,16 @@
+1. array
+2. wap in c++ to arrange no. in ascending order in an array
+3. simple pragram in c++ using if/else statement 
+4. varius kind of looping statements in c++
+        a. for  loop
+        b. while  loop
+        c. do while loop
+
+5. wap in c++ to convert given binary  number into a decimal number
+6. inheritance
+7. friend function
+8. constructor and destructor 
+9. virtual function
+10. polymorphism
+11. how function and operator overloading is done with a simple program 
+12. wap in c++ to insert and delete an element form stack
