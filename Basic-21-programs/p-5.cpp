@@ -8,6 +8,16 @@ int main(){
     cout<<"enter the number of terms in the series:"<<endl;
     cin>>n;
     cout<<"**********          The Fabonacci seires          *************"  <<endl;
-    cout<<
+    cout<<first<<"\t"<<second;
+    i = 3;
+    while(i<= n){
+        next = first + second;
+        cout<<"\t"<<next;
+        first = second;
+        second = next;
+        i ++;
+
+    }
+    
     return 0;
 }
