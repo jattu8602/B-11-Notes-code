@@ -6,6 +6,7 @@ using namespace std;
     int cmeter;
     friend distanc sum(distanc, distanc);
     public:
+    
     void inputdata(){
         cout<<"enter the distance (in meter and centimeter):"<<endl;
         cin>>meter>>cmeter;
