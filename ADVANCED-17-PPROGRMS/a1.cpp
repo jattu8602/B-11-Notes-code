@@ -1,4 +1,4 @@
-//to read and the distance in meter and contimeter using class and object
+//to read and the distance in meter and centimeter using class and object
 #include<iostream>
 using namespace std;
    class distanc{
