@@ -18,7 +18,7 @@ using namespace std;
     }
     void operator ++(){
         next = first +second;
-        cout<<"next"<<"  ";
+        cout<<next<<"  ";
         first = second;
         second = next;
 
