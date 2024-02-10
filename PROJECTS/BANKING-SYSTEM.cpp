@@ -5,6 +5,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<ctype.h>
+using namespace std;
 //This menu class displays the menu
 class Menus{
     public:
@@ -113,15 +114,87 @@ class accountTransactions{
         char choice;
         while (1)
         {
+            cout<<"         ----Close Menu----              "<<endl;
+            cout<<"*****************************************************"<<endl;
+            cout<<"             1 : Close/Delete an Account"<<endl;
+            cout<<"             0 : Exit form this menu "<<endl;
+            cout<<"             Select a choice :"<<endl;
+            choice = getchar();
+            if (choice == '1')
+            {
+               accountTransactions at;
+               at.closeAccount();
+               break;
+            }
+            else if(choice == '0'){
+                cout<<"       You have entered 0 to go back to the previous Menu :"<<endl;
+                getchar();
+                break;
+            }
             
         }
         
     }
+//lastAccount() method returns the Last Account Number form the newrecords.dat file
+int dispRecord :: lastAccount(void){
+    fstream filename;
+
+    filename.open("newrecords.dat", ios :: in);
+    filename.seekg(0,ios :: beg);
+    int count  = 0;
+    while(filename.read((char *)this,sizeof(dispRecord)))
+    count = AccountNumber;
+    filename.close();
+    return count ;
 
 
-using namespace std;
+}
+//getRecord() method returns the record number form the newrecords.dat file when a banking staff enters the Account Number
+int dispRecord :: getRecord(int retrieve_AccNo ){
+    fstream filename;
+    filename.open("newrecords.dat", ios::in);
+    filename.seekg(0,ios :: beg);
+    int count  = 0;
+    while(filename.read((char *)this,sizeof(dispRecord))){
+        count++;
+        if(retrieve_AccNo == AccountNumber)
+        break;
+        /*
+        keep on counting the record till the Account Number is found and exit from the newrecords.dat file
+        */
+    }
+    filename.close();
+    return count;
+
+    
+
+}
+//display() method display all the details of the Account Number from the newrocords.dat file
+void displayRecords :: display(int retrieve_AccNo){
+int record;
+record  = getRecords(retrieve_AccNo);
+fstream filename;
+filename.open("newrecords.dat",ios :: in);
+filename.seekg(0,ios::end);
+}
+
+
+
    
 int main(){
     
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+// aur ye code kabhi poora nahi ho saka 
+// error hi error aa rahi hain
